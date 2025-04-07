@@ -1,4 +1,4 @@
-# BasicNFT (BNFT) - A Basic BEP-721 NFT with Capacity Tracking
+# A Basic BEP-721 NFT with Capacity Tracking
 
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
@@ -71,9 +71,9 @@ struct NFTInfo {
 
 ### Functions
 
-- **mintNFT(address to, uint256 tokenId, uint256 capacity)**: Mints a new NFT (no access restrictions by default).
-- **updateCapacity(uint256 tokenId, uint256 newCapacity)**: Updates the NFT's capacity (caller must own the NFT).
-- **getTimeSinceLastUpdate(uint256 tokenId)**: Returns the time (in seconds) since the last capacity update.
+- `mintNFT(address to, uint256 tokenId, uint256 capacity)`: Mints a new NFT (no access restrictions by default).
+- `updateCapacity(uint256 tokenId, uint256 newCapacity)`: Updates the NFT's capacity (caller must own the NFT).
+- `getTimeSinceLastUpdate(uint256 tokenId)`: Returns the time (in seconds) since the last capacity update.
 
 ## Security Note
 
