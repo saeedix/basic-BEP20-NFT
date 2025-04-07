@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 contract BasicNFT is ERC721 {
     struct NFTInfo {
-        uint256 capacity;    // Capacity in watts
+        uint256 capacity;    // Capacity
         uint256 lastUpdated; // Timestamp of last update
     }
 
